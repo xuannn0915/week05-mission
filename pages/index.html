@@ -10,16 +10,17 @@
     rel="stylesheet">
   </head>
   <body>
-    <div class="sidebar bg-light py-8">
-      <img src="../assets/images/logo.svg" alt="logo" class="px-8 mb-8">
-      <ul>
-        <li class="d-flex">
-          <span class="material-icons-outlined fw-bold material-icons me-4">
-            assessment
-            </span>
-            <p class="fw-bold">Dashboard</p>
-        </li>
-      </ul>
+    <div class="d-flex">
+      <%- include('./layout/sidebar'); -%>
+
+      <div class="content p-8">
+        <div class="pagebar d-flex align-items-center justify-content">
+          <div class="pagebar-title">
+            <h4 class="fw-bold">Assignment</h4>
+          </div>
+          <div class="pagebar-function"></div>
+        </div>
+      </div>
     </div>
 
 

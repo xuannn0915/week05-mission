@@ -1,4 +1,34 @@
-.sidebar{
+@import "../utils/variables";
+
+.sidebar {
   max-width: 296px;
   height: 100vh;
+
+  a {
+    color: $dark;
+  }
+  li:hover {
+    a::before{
+      content: '';
+      position: absolute;
+      bottom: 0;
+      top: 0;
+      left: 0;
+      width: 4px;
+      background: $primary;
+    }
+    a {
+      color: $primary;
+    }
+  }
+
+  &-user{
+    img{
+      width: 40px;
+      height: 40px;
+    }
+    .info{
+      line-height: 17px;
+    }
+  }
 }
