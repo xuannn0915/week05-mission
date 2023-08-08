@@ -1,11 +1,36 @@
+
 .content {
   width: 77vw;
+  input {
+    height: 51px;
+  }
 
 }
-.pagebar-title {
-  .modal-body {
-    input {
-      height: 51px;
+
+table{
+
+  .function{
+    width: 0;
+  }
+  
+  button:hover{
+    color: $primary;
+  }
+
+  .view-admin{
+    img{
+      width: 141px;
+      height: 141px;
+      object-fit: cover;
+    }
+
+  }
+  .admin-info{
+    .tag{
+      border-radius: 2px;
+    }
+    button:hover{
+      color: $dark;
     }
   }
 }
